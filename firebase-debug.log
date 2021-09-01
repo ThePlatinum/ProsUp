@@ -1,0 +1,86 @@
+[debug] [2021-09-01T19:56:25.047Z] ----------------------------------------------------------------------
+[debug] [2021-09-01T19:56:25.051Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-09-01T19:56:25.052Z] CLI Version:   9.16.0
+[debug] [2021-09-01T19:56:25.052Z] Platform:      linux
+[debug] [2021-09-01T19:56:25.052Z] Node Version:  v16.4.1
+[debug] [2021-09-01T19:56:25.053Z] Time:          Wed Sep 01 2021 20:56:25 GMT+0100 (West Africa Standard Time)
+[debug] [2021-09-01T19:56:25.053Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-01T19:56:25.056Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-09-01T19:56:25.082Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-01T19:56:25.083Z] > authorizing via signed-in user (platinumemirate@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/platinum/Documents/App/prosup
+
+[debug] [2021-09-01T19:56:25.938Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-09-01T19:56:25.938Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-01T20:33:53.773Z] > refreshing access token with scopes: []
+[debug] [2021-09-01T20:33:53.774Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-01T20:34:56.570Z] ----------------------------------------------------------------------
+[debug] [2021-09-01T20:34:56.575Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-09-01T20:34:56.576Z] CLI Version:   9.16.0
+[debug] [2021-09-01T20:34:56.577Z] Platform:      linux
+[debug] [2021-09-01T20:34:56.577Z] Node Version:  v16.4.1
+[debug] [2021-09-01T20:34:56.577Z] Time:          Wed Sep 01 2021 21:34:56 GMT+0100 (West Africa Standard Time)
+[debug] [2021-09-01T20:34:56.579Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-01T20:34:56.590Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-01T20:34:56.590Z] > authorizing via signed-in user (platinumemirate@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/platinum/Documents/App/prosup
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-01T20:35:07.145Z] > refreshing access token with scopes: []
+[debug] [2021-09-01T20:35:07.146Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-01T20:35:07.584Z] <<< HTTP RESPONSE 200 {"date":"Wed, 01 Sep 2021 20:35:07 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-01T20:35:07.606Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-01T20:35:08.410Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-01T20:35:08.411Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project prosup-com (ProsUp) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /home/platinum/Documents/App/prosup 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=234420868&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-09-01T20:35:13.462Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"3803fd4ef8d62e11ea2a","redirect_uri":"http://localhost:9005","state":"234420868"}
+[debug] [2021-09-01T20:39:34.175Z] Error: connect ETIMEDOUT 140.82.121.4:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1132:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 140.82.121.4:443
