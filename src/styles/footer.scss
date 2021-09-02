@@ -1,0 +1,23 @@
+@import 'colors';
+
+.App-Footer {
+    .Container{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+
+}

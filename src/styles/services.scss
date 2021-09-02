@@ -1,0 +1,33 @@
+@import 'colors';
+
+.App-Services {
+    height: 80vh;
+    background-color: $primary-dark;
+    color: white;
+
+    .Container{
+        display: flex;
+        height: inherit;
+        text-align: start;
+        flex-direction: column;
+        padding: 5vw !important;
+    }
+
+    .sub {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        height: inherit;
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+    .App-Services {
+        height: 65vh;
+    }
+}

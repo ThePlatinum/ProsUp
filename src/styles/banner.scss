@@ -1,0 +1,61 @@
+@import 'colors';
+
+/* .App-Banner:before {
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+} */
+
+.App-Banner {
+    height: 70vh;
+    align-items: center;
+    background-color: $primary-dark;
+    position: relative;
+    background-image: url('../resources/bannerimg.jpg');
+
+    .Container{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        height: inherit;
+        align-items: center;
+        align-content: center;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+
+    .searchInput {
+        align-content: center;
+        color: $primary-dark;
+        border: $primary-dark;
+        height: 7vh;
+    }
+    .searchBtn {
+        background-color: white;
+        color: $primary-dark;
+        border: $primary-dark;
+        height: 7vh;
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+
+    .App-Banner {
+        height: 60vh;
+    }
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+
+    .App-Banner {
+        height: 50vh;
+    }
+
+}

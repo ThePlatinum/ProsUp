@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif, 'Comfortaa', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h4 {
+  font-family: 'Comfortaa';
+  margin-bottom: 2vh !important;
+  font-size: xx-large !important;
+}
+
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+  h4 {
+    font-family: 'Comfortaa';
+    margin-bottom: 2vh !important;
+    font-size: x-large !important;
+  }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+  h4 {
+    font-family: 'Comfortaa';
+    margin-bottom: 2vh !important;
+    font-size: large !important;
+  }
+}

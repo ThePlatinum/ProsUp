@@ -1,0 +1,27 @@
+@import 'colors';
+
+.App-Recents {
+    height: 70vh;
+    align-items: center;
+    background-color: white;
+    color: $primary-dark;
+
+    .Container{
+        display: flex;
+        height: inherit;
+        text-align: start;
+        flex-direction: column;
+        padding: 5vw !important;
+    }
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+
+}

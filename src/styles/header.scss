@@ -1,0 +1,47 @@
+@import 'colors';
+
+.App-Header {
+    height: 80px;
+
+    .Container{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+
+        img {
+            height:47px;
+        }
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+
+    .App-Header {
+        height: 60px;
+
+        .Container{
+            img {
+                height:37px
+            }
+        }
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+
+    .App-Header {
+        height: 50px;
+        
+        .Container{
+            img {
+                height:27px
+            }
+        }
+    }
+}
