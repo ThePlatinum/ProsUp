@@ -6,6 +6,7 @@ import Recents from './components/recent';
 import Submission from './components/submission';
 import Mission from './components/mission';
 import Services from './components/services';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Submission />
       <Mission />
       <Services />
+      <Footer />
     </div>
   );
 }

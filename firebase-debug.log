@@ -170,3 +170,34 @@ You're about to initialize a Firebase project in this directory:
     at async init (/usr/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
 [error] 
 [error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-09-02T14:02:01.653Z] ----------------------------------------------------------------------
+[debug] [2021-09-02T14:02:01.655Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-09-02T14:02:01.656Z] CLI Version:   9.16.0
+[debug] [2021-09-02T14:02:01.656Z] Platform:      linux
+[debug] [2021-09-02T14:02:01.656Z] Node Version:  v16.4.1
+[debug] [2021-09-02T14:02:01.657Z] Time:          Thu Sep 02 2021 15:02:01 GMT+0100 (West Africa Standard Time)
+[debug] [2021-09-02T14:02:01.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-02T14:02:01.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-02T14:02:01.670Z] > authorizing via signed-in user (platinumemirate@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/platinum/Documents/App/prosup
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-02T14:02:13.638Z] > refreshing access token with scopes: []
+[debug] [2021-09-02T14:02:13.639Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

@@ -49,6 +49,7 @@
                     color: $primary-dark;
                     margin: 0px;
                     margin-right: 5vw;
+                    border-radius: 0px;
                 }
                 .contribute {
                     width: 20vw;
@@ -57,6 +58,7 @@
                     color: white;
                     margin: 0px;
                     margin-left: 5vw;
+                    border-radius: 0px;
                 }
             }
         }
@@ -70,7 +72,7 @@
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
     .App-Mission {
-        height: 65vh;
+        height: 70vh;
         .sub {
             .list{
                 font-size: large;

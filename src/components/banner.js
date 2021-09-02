@@ -7,8 +7,8 @@ function Banner() {
     <div className="App-Banner">
       <div className='Container'>
         <InputGroup>
-          <Input placeholder="Search" color='#A15318' id="search" className='searchInput' />
-          <InputGroupAddon addonType="append"><Button className='searchBtn'> <AiOutlineSearch size='1.7em'/> </Button></InputGroupAddon>
+          <Input placeholder="Search" color='#A15318' id="search" className='searchInput' type='search' />
+          <InputGroupAddon addonType="append"><Button className='searchBtn'> <AiOutlineSearch size='1.6em'/> </Button></InputGroupAddon>
         </InputGroup>
       </div>
     </div>

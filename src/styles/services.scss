@@ -18,6 +18,42 @@
         justify-content: space-around;
         align-content: center;
         height: inherit;
+        font-family: 'Comfortaa';
+        text-align: center;
+        font-size: x-large;
+
+        .rt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            padding: 5vh;
+        }
+
+        .ems{
+            font-size: xx-large;
+            font-family: Montserrat cursive;
+        }
+
+        .enrollBtn, .downloadBtn{
+            color: $primary-dark;
+            background-color: white;
+            border: 2px solid $primary-dark;
+            width: 190px;
+            border-radius: 0px;
+        }
+
+        .white{
+            background-color: white;
+            color: $primary-dark;
+            height: 50vh;
+            padding: 5vh;
+            box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+        }
+
+        .white:hover {
+            box-shadow: 0 8px 18px 0 rgba(0,0,0,0.3);
+        }
     }
 }
 
@@ -28,6 +64,14 @@
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
     .App-Services {
-        height: 65vh;
+        height: 110vh;
+
+        .sub {
+            
+            .enrollBtn, .downloadBtn{
+                width: 200px;
+                font-size: large;
+            }
+        }
     }
 }

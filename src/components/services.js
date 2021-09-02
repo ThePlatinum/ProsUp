@@ -1,3 +1,4 @@
+import { Button } from 'reactstrap';
 import '../styles/services.scss';
 
 function Services() {
@@ -7,9 +8,17 @@ function Services() {
       <div className='Container'>
        <h4>Other Services</h4>
        <div className='sub row'>
-         <div className='col-md-6'></div>
-         <div className='col-md-6'>
-             <div className='white'></div>
+         <div className='rt col-md-8'>
+            <h5>Go fro Beginner to Pro by Learning the Standards of Creating awesome documents in</h5> 
+            <p><em className='ems'>Latex</em> or <em className='ems'>MS Word</em > <br/></p>
+            <Button className='enrollBtn' > Enroll </Button>
+         </div>
+         <div className='lt col-md-4'>
+            <div className='white'>
+                <img alt='Free Template'/> <br/> <br/>
+                <strong>Free</strong> 'Latex' Undergraduate Project Template <br/> <br/>
+                <Button className='downloadBtn'> Get Now</Button>
+            </div>
          </div>
        </div>
       </div>
