@@ -1,7 +1,7 @@
 @import 'colors';
 
 .App-Services {
-    height: 80vh;
+    height: 90vh;
     background-color: $primary-dark;
     color: white;
 
@@ -46,9 +46,14 @@
         .white{
             background-color: white;
             color: $primary-dark;
-            height: 50vh;
+            height: 60vh;
             padding: 5vh;
             box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+
+            img {
+                height: 20vh;
+                padding-bottom: 10px;
+            }
         }
 
         .white:hover {
@@ -64,7 +69,7 @@
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
     .App-Services {
-        height: 110vh;
+        height: 120vh;
 
         .sub {
             

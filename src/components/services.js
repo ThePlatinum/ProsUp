@@ -1,5 +1,6 @@
 import { Button } from 'reactstrap';
 import '../styles/services.scss';
+import freeTemplate from '../resources/free-template.svg'
 
 function Services() {
 
@@ -15,7 +16,7 @@ function Services() {
          </div>
          <div className='lt col-md-4'>
             <div className='white'>
-                <img alt='Free Template'/> <br/> <br/>
+                <img src={freeTemplate} alt='Free Template'/> <br />
                 <strong>Free</strong> 'Latex' Undergraduate Project Template <br/> <br/>
                 <Button className='downloadBtn'> Get Now</Button>
             </div>
