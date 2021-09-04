@@ -13,6 +13,10 @@
         color: $primary-dark;
         font-style: bold;
 
+        a{
+            text-decoration: none;
+        }
+
         .contacts {
             color: $primary-dark;
             margin: 2px;

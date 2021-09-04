@@ -56,6 +56,21 @@
             }
 
         }
+
+        .pagenation {
+            padding-top: 2vh;
+            border: 0px solid $primary-dark;
+            border-top-width: 1px;
+            align-content: center;
+            text-align: center;
+
+            button{
+                font-size: large;
+                font-weight: 500;
+                margin-left: 1vh;
+                margin-right: 1vh;
+            }
+        }
     }
 
 }

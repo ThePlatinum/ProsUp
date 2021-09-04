@@ -8,7 +8,7 @@ function Footer() {
     <div className="App-Footer">
       <div className='Container'>
         <div> 
-          ProsUp 2021 | Platinum Innovations<br />
+          ProsUp 2021 | prowered by <a href='/'>Platinum Innovations</a><br />
           <Button color='' className='contacts' > <AiOutlinePhone size='1.5em'/> </Button>
           <Button color='' className='contacts' > <AiOutlineWhatsApp size='1.5em'/> </Button>
           <Button color='' className='contacts' > <AiOutlineMail size='1.5em'/> </Button>

@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react';
+import { useHistory } from 'react-router-dom';
+import { Button } from 'reactstrap';
 import '../styles/recents.scss';
 
 function Recents() {
 
   const [recents, setRecents] = useState([]);
+  const history = useHistory()
 
   useEffect(()=>{
-    fetch('prosup-backend.000webhostapp.com/recents.php') //https://prosup-backend.000webhostapp.com
+    fetch('http://localhost/prosup/api/recents') //https://prosup-backend.000webhostapp.com
       .then(response => response.json())
       .then(data => {
         setRecents(data)
@@ -29,7 +32,7 @@ function Recents() {
           })}
         </div>
         <div >
-          <a href='/' className='loadMore'>load more</a>
+          <Button color='' onClick={()=>{history.push( '/archive', {searchKey : ''} )}} className='loadMore'>load more</Button>
         </div>
       </div>
     </div>
