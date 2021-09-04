@@ -1,7 +1,6 @@
 @import 'colors';
 
 .App-Recents {
-    height: 80vh;
     align-items: center;
     background-color: white;
     color: $primary-dark;
@@ -12,16 +11,102 @@
         text-align: start;
         flex-direction: column;
         padding: 5vw !important;
+
+        a {
+            color: #505050;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #707070;
+            text-decoration: underline;
+        }
+
+        .loadMore{
+            font-size: x-large;
+        }
+
+        .listElement {
+            color: #101010;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 4vh;
+            /* border-bottom-width: 1px;
+            border-color: $primary-dark;
+            border-style: solid; */
+
+            .listTitle {
+                font-size: 26px;
+            }
+            .listAuthor {
+                font-size: 22px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .listExcerpt{
+                font-size: 17px;
+                font-family: Montserrat;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                line-height: 24px;     /* fallback */
+                max-height: 96px;      /* fallback */
+                -webkit-line-clamp: 4; /* number of lines to show */
+                -webkit-box-orient: vertical;
+            }
+
+        }
     }
 
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 720px) {
+    .App-Recents {
+        .Container{
+            padding: 5vw !important;
 
+            .loadMore{
+                font-size: large;
+                padding: 2vh;
+            }
+            .listElement {
+                margin: 0;
+                padding: 0;
+                padding-bottom: 3vh;
+                .listTitle {
+                    font-size: 18px;
+                }
+                .listAuthor {
+                    font-size: 16px;
+                }
+                .listExcerpt{
+                    font-size: 14px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
+    .App-Recents {
+        .Container{
+            .listElement {
+                margin: 2vh;
+    
+                .listTitle {
+                    font-size: 16px;
+                }
+                .listAuthor {
+                    font-size: 15px;
+                }
+                .listExcerpt{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 
 }

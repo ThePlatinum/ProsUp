@@ -1,7 +1,6 @@
 @import 'colors';
 
 .App-Mission {
-    height: 80vh;
     background-color: white;
     color: $primary-dark;
 
@@ -72,7 +71,6 @@
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
     .App-Mission {
-        height: 70vh;
         .sub {
             .list{
                 font-size: large;

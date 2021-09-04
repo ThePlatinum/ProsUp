@@ -1,7 +1,6 @@
 @import 'colors';
 
 .App-Services {
-    height: 90vh;
     background-color: $primary-dark;
     color: white;
 
@@ -46,13 +45,12 @@
         .white{
             background-color: white;
             color: $primary-dark;
-            height: 60vh;
             padding: 5vh;
             box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
 
             img {
-                height: 20vh;
-                padding-bottom: 10px;
+                height: 25vh;
+                padding-bottom: 20px;
             }
         }
 
@@ -64,15 +62,21 @@
 
 //Tab smaller sizes
 @media screen and (max-width: 720px) {
+    .App-Services {
+        .sub {
+            font-size: large;
+    
+            .ems{
+                font-size: x-large;
+            }
+        }
+    }
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
     .App-Services {
-        height: 120vh;
-
         .sub {
-            
             .enrollBtn, .downloadBtn{
                 width: 200px;
                 font-size: large;

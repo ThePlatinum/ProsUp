@@ -10,7 +10,7 @@ function Services() {
        <h4>Other Services</h4>
        <div className='sub row'>
          <div className='rt col-md-8'>
-            <h5>Go fro Beginner to Pro by Learning the Standards of Creating awesome documents in</h5> 
+            <h5>Go from Beginner to <em><strong>Pro</strong></em> by Learning the Standards of Creating awesome documents in</h5> 
             <p><em className='ems'>Latex</em> or <em className='ems'>MS Word</em > <br/></p>
             <Button className='enrollBtn' > Enroll </Button>
          </div>
