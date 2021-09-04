@@ -6,7 +6,7 @@ function Recents() {
   const [recents, setRecents] = useState([]);
 
   useEffect(()=>{
-    fetch('http://localhost/prosup/recents.php')
+    fetch('prosup-backend.000webhostapp.com/recents.php') //https://prosup-backend.000webhostapp.com
       .then(response => response.json())
       .then(data => {
         setRecents(data)
@@ -20,7 +20,7 @@ function Recents() {
         <div>
           {recents.map((list, i) => {
             return(
-              <div className='listElement'>
+              <div className='listElement' key={i}>
                 <div className='listTitle'>   <a href='/'>{list.title}</a> </div>
                 <div className='listAuthor'>  {list.author} ( {list.year} ) </div>
                 <div className='listExcerpt'> {list.excerpt} </div>

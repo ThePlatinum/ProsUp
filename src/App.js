@@ -1,22 +1,21 @@
 import './App.scss';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './components/banner';
-import Recents from './components/recent';
-import Submission from './components/submission';
-import Mission from './components/mission';
-import Services from './components/services';
 import Footer from './components/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './routes/Home';
+import Archive from './routes/Archive';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Banner />
-      <Recents />
-      <Submission />
-      <Mission />
-      <Services />
+        <BrowserRouter>
+          <Switch>
+            <Route path='/' exact component={ Home }/>
+            <Route path='/archive' exact component={ Archive }/>
+          </Switch>
+        </BrowserRouter>
       <Footer />
     </div>
   );
