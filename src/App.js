@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './routes/Home';
 import Archive from './routes/Archive';
+import Viewing from './routes/Viewing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Switch>
             <Route path='/' exact component={ Home }/>
             <Route path='/archive' exact component={ Archive }/>
+            <Route path='/view-doc/:which' exact component={ Viewing }/>
           </Switch>
         </BrowserRouter>
       <Footer />

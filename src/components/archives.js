@@ -7,7 +7,7 @@ function Archives() {
 
   const [recents, setRecents] = useState([]);
   const [page, setPage] = useState(1)
-  const [perPage] = useState(5) //setperPage
+  const [perPage] = useState(10) //setperPage
   var totalPages = ''
   var paginateNums = []
   var isSearch = ''
@@ -56,7 +56,7 @@ function Archives() {
           {paginate(recents).items.map((list, i) => {
             return(
               <div className='listElement' key={i}>
-                <div className='listTitle'>   <a href='/'>{list.title}</a> </div>
+                <div className='listTitle'>   <a href={`/view-doc/${list.id}`}>{list.title}</a> </div>
                 <div className='listAuthor'>  {list.author} ( {list.year} ) </div>
                 <div className='listExcerpt'> {list.excerpt} </div>
               </div>

@@ -24,7 +24,7 @@ function Recents() {
           {recents.map((list, i) => {
             return(
               <div className='listElement' key={i}>
-                <div className='listTitle'>   <a href='/'>{list.title}</a> </div>
+                <div className='listTitle'>   <a href={`/view-doc/${list.id}`}>{list.title}</a> </div>
                 <div className='listAuthor'>  {list.author} ( {list.year} ) </div>
                 <div className='listExcerpt'> {list.excerpt} </div>
               </div>
