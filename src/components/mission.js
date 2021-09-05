@@ -17,8 +17,8 @@ function Mission() {
          <div className='noteBtn col-lg-6'>
            Want to be a part of these value creation?
            <div className='btn' >
-           <Button className='mail'>Mail Us</Button>
-           <Button className='contribute'>Contribute</Button>
+           <Button className='mail'>Contact Us</Button>
+           <Button className='contribute' onClick={()=>{window.open("https://paystack.com/pay/supportprosup", "_blank")}}>Contribute</Button>
            </div>
          </div>
        </div>
