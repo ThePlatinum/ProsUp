@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './routes/Home';
 import Archive from './routes/Archive';
 import Viewing from './routes/Viewing';
+import PutUp from './routes/PutUp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' exact component={ Home }/>
             <Route path='/archive' exact component={ Archive }/>
             <Route path='/view-doc/:which' exact component={ Viewing }/>
+            <Route path='/putprosup' exact component={ PutUp }/>
           </Switch>
         </BrowserRouter>
       <Footer />

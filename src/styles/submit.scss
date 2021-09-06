@@ -1,0 +1,104 @@
+@import 'colors';
+
+.App-Submit {
+    align-items: center;
+    color: $secondary-dark;
+    padding: 5vw !important;
+    text-align: left;
+    font-family: 'Comfortaa';
+
+    p{
+        font-size: larger;
+        padding-right: 2vw;
+
+        p{
+            font-size: large;
+            padding-left: 3vw;
+        }
+    }
+
+    .forms{
+        padding-left: 2vw;
+        text-align: center;
+        .card{
+            padding: 2vw;
+            text-align: left;
+            justify-content: center;
+
+            textarea, input{
+                padding: 1vw;
+                margin-top: 1vw;
+                margin-bottom: 1vw;
+                border: 1px solid #909090;
+            }
+            .upload, input[type='file']{
+                width: 100%;
+                padding: 1vw;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                border: 1px solid #909090;
+                position: relative;
+
+                input{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    opacity: 0;
+                    height: 100%;
+                    padding: 0vw;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+            }
+
+        }
+        .grp{
+            margin-bottom: 3vw;
+        }
+
+        .sendBtn {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid $primary-dark;
+            color: $primary-dark;
+            background-color: white;
+            font-weight: 600;
+        }
+        .sendBtn:hover{
+            border: 1px solid white;
+            color: white;
+            background-color: $primary-dark;
+        }
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+    .App-Submit {
+        p{
+            font-size: medium;
+
+            p{
+                font-size: small;
+                padding-left: 3vw;
+            }
+        }
+
+        .forms{
+            padding-left: 2vw;
+            .card{
+                padding: 2vw;
+                input{
+                    padding: 1vw;
+                    margin-top: 1vw;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+    }
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+}

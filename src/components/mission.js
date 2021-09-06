@@ -15,8 +15,8 @@ function Mission() {
            <img src={dot} alt="Missions List" /> Publish your idea and make the mark!<br /><br />
          </div>
          <div className='noteBtn col-lg-6'>
-           Want to be a part of these value creation?
-           <div className='btn' >
+           Want to be a part of these value creation? 
+           <div className='btns' >
            <Button className='mail'>Contact Us</Button>
            <Button className='contribute' onClick={()=>{window.open("https://paystack.com/pay/supportprosup", "_blank")}}>Contribute</Button>
            </div>

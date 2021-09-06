@@ -18,7 +18,7 @@ function View() {
     return (
         <div className="App-Viewer">
             <div className='Container row'>
-                <div className='name col-md-4'>
+                <div className='name col-md-5'>
                     <h3>{document.title}</h3>
                     <h6>{document.author}</h6>
 
@@ -26,7 +26,7 @@ function View() {
                         <Button className='contribute' onClick={()=>{window.open("https://paystack.com/pay/supportprosup", "_blank")}}>Contribute</Button>
                     </div>
                 </div>
-                <div className='file col-md-8'> <embed src={`http://localhost/prosup/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
+                <div className='file col-md-7'> <embed src={`http://localhost/prosup/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
             </div>
         </div>
     )

@@ -1,3 +1,33 @@
+@import './styles/colors';
+
 .App {
   text-align: center;
+
+  .top{
+    background-color: $primary-dark;
+    padding: 5vw ;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: xx-large;
+  }
+  .row{
+    --bs-gutter-x: 0rem;
+  }
+  input, button {
+    border-radius: 0;
+  }
+
+  button:focus {
+    box-shadow: none !important;
+  }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+  .App {
+  
+    .top{
+      font-size: large;
+    }
+  }
 }
