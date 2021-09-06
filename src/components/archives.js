@@ -14,13 +14,15 @@ function Archives() {
 
   const location = useLocation()
   const search = location.state.searchKey
-  var api = 'http://localhost/prosup/api/gets?s=' + search
+  //var origin = 'http://localhost/prosup'
+  var origin = 'https://prosup-backend.000webhostapp.com'
+  var api = origin + '/api/gets?s=' + search
   if(search !== ''){
     isSearch = <div> Showing search result '{search}' </div>
   }
 
   useEffect(()=>{
-    fetch(api) //https://prosup-backend.000webhostapp.com
+    fetch(api) 
       .then(response => response.json())
       .then(data => {
         setRecents(data)

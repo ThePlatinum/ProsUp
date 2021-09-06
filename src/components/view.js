@@ -5,7 +5,9 @@ import ContributeBtn from './contribute';
 
 function View() {
     let { which } = useParams();
-    var api = 'http://localhost/prosup/api/ones?s=' + which
+    //var origin = 'http://localhost/prosup'
+    var origin = 'https://prosup-backend.000webhostapp.com'
+    var api = origin + '/api/ones?s=' + which
     const [document, setDocument] = useState([]);
     useEffect(()=>{
         fetch(api) //https://prosup-backend.000webhostapp.com
@@ -32,7 +34,7 @@ function View() {
                     <div className='cont'>
                     </div>
                 </div>
-                <div className='file col-md-7'> <embed src={`http://localhost/prosup/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
+                <div className='file col-md-7'> <embed src={`${origin}/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
             </div>
         </div>
     )
