@@ -5,10 +5,6 @@
     padding: 0px !important;
     margin: 0px !important;
 
-    .row {
-        --bs-gutter-x: 0px !important;
-    }
-
     .Container{
         padding: 0px !important;
         color: #101010;
@@ -16,10 +12,13 @@
 
         .name {
             font-family: 'Comfortaa';
-            padding-left: 5vw;
-            padding-top: 5vw;
+            padding: 5vw;
             text-align: left;
             margin: 0px !important;
+
+            .cont{
+                padding-top: 5vw;
+            }
         }
         .file {
             height: 1100px;
@@ -30,8 +29,17 @@
 
 //Tab smaller sizes
 @media screen and (max-width: 720px) {
+    .name{
+        h3{
+            font-size: large;
+        }
+        h5{
+            font-size: medium;
+        }
+    }
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
+
 }

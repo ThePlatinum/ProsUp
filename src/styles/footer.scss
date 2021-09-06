@@ -11,15 +11,16 @@
         padding: 3vw !important;
         font-family: 'Comfortaa';
         color: $primary-dark;
-        font-style: bold;
-
         a{
+            color: #b41818;
             text-decoration: none;
         }
-
+        .privacy{
+            color: $primary-dark;
+        }
         .contacts {
             color: $primary-dark;
-            margin: 2px;
+            margin: 1px;
         }
     }
 }

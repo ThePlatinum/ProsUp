@@ -12,10 +12,23 @@ function Submit() {
     const [note, setNote] = useState('')
     const [selectFileName, setSelectFileName] = useState('No File Selected')
 
+    const sendSubmission = ()=>{
+        let submisson = {
+            firstName:firstName,
+            lastName:lastName,
+            otherName:otherName,
+            mail:mail,
+            docType:docType,
+            note:note
+        }
+
+        console.log(submisson)
+    }
+
   return (
     <div className="App-Submit row">
         <div className='note col-md-5'>
-            <p>
+            <div className='hP'>
                 You got cool Projects you'd like to put up for the world to see, and it makes use glad. <br/>
                 Anyone can make a submission, but, to establish good value, check that: <br/> <br/>
                 <p>
@@ -23,7 +36,7 @@ function Submit() {
                     The document is well formatted and not a draft <br/> <br/>
                     You proof read the document... you don't want to author typos <br/> <br/>
                 </p>
-            </p>
+            </div>
         </div>
         <div className='forms col-md-7'>
             <Form>
@@ -47,7 +60,7 @@ function Submit() {
                     <Label>Browse or drag file (pdf format only)</Label>
                     <Label for='file-upload' className='upload'>
                         {selectFileName}
-                        <input type='file' id='btn file-upload' onChange={(e)=>{setSelectFileName(e.target.value.replace('C:\\fakepath\\',''))}}/>
+                        <input type='file' id='file-upload' onChange={(e)=>{setSelectFileName(e.target.value.replace('C:\\fakepath\\',''))}}/>
                     </Label>
                 </FormGroup>
                 <div className='card grp' >
@@ -55,7 +68,7 @@ function Submit() {
                         <Label check><input type='checkbox'/> &nbsp; Get a mail notification upon review </Label>
                     </FormGroup>
                 </div>
-                <Button className='sendBtn'> Submit </Button>
+                <Button className='sendBtn' onClick={sendSubmission}> Submit </Button>
             </Form>
         </div>
     </div>

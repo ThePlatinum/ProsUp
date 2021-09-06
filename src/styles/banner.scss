@@ -32,15 +32,17 @@
         align-content: center;
         color: $primary-dark;
         border: $primary-dark;
-        height: 7vh;
-        border-radius: 0px;
+        height: 9vh;
+        padding-left: 2vw;
+        font-family: 'Comfortaa';
+        text-decoration-style: $primary-dark;
     }
     .searchBtn {
         background-color: white;
         color: $primary-dark;
         border: $primary-dark;
-        height: 7vh;
-        border-radius: 0px;
+        height: 9vh;
+        padding-right: 2vw;
     }
 }
 

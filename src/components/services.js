@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className="App-Services">
       <div className='Container'>
-       <h4>Other Services</h4>
+       <h4>Our Services</h4>
        <div className='sub row'>
          <div className='rt col-md-8'>
             <h5>Go from Beginner to <em><strong>Pro</strong></em> by Learning the Standards of Creating awesome documents in</h5> 

@@ -1,6 +1,7 @@
 import { Button } from 'reactstrap';
 import '../styles/mission.scss';
 import dot from '../resources/selection.svg'
+import ContributeBtn from './contribute';
 
 function Mission() {
 
@@ -17,8 +18,8 @@ function Mission() {
          <div className='noteBtn col-lg-6'>
            Want to be a part of these value creation? 
            <div className='btns' >
-           <Button className='mail'>Contact Us</Button>
-           <Button className='contribute' onClick={()=>{window.open("https://paystack.com/pay/supportprosup", "_blank")}}>Contribute</Button>
+           <Button className='mail' onClick={()=> document.location.href = "mailto:platinumemirate@gmail.com"} >Mail Us</Button>
+            < ContributeBtn styleClass='contribute'/>
            </div>
          </div>
        </div>
