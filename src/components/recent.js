@@ -9,8 +9,8 @@ function Recents() {
   const history = useHistory()
 
   useEffect(()=>{
-    //var origin = 'http://localhost/prosup'
-    var origin = 'https://prosup-backend.000webhostapp.com'
+    var origin = 'http://localhost/prosup'
+    //var origin = 'https://prosup-backend.000webhostapp.com'
     var api = origin + '/api/recents'
     fetch(api)
       .then(response => response.json())

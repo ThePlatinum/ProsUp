@@ -17,7 +17,7 @@ function Banner() {
     <div className="App-Banner">
       <div className='Container'>
         <InputGroup>
-          <Input placeholder="Search" color='#A15318' id="search" className='searchInput' type='search' onSubmit={searches} onChange={(e)=> setS(e.target.value)} />
+          <Input placeholder="Search" color='#A15318' id="search" className='searchInput' type='search' onKeyPress={searches} onChange={(e)=> setS(e.target.value)} />
           <InputGroupAddon addonType="append"><Button className='searchBtn' onClick={searches}> <AiOutlineSearch size='1.6em'/> </Button></InputGroupAddon>
         </InputGroup>
       </div>

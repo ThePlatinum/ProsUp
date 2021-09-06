@@ -14,8 +14,8 @@ function Archives() {
 
   const location = useLocation()
   const search = location.state.searchKey
-  //var origin = 'http://localhost/prosup'
-  var origin = 'https://prosup-backend.000webhostapp.com'
+  var origin = 'http://localhost/prosup'
+  //var origin = 'https://prosup-backend.000webhostapp.com'
   var api = origin + '/api/gets?s=' + search
   if(search !== ''){
     isSearch = <div> Showing search result '{search}' </div>
