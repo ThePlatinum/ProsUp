@@ -5,12 +5,12 @@ import ContributeBtn from './contribute';
 
 function View() {
     let { which } = useParams();
-    var origin = 'http://localhost/prosup'
-    //var origin = 'https://prosup-backend.000webhostapp.com'
+    //var origin = 'http://localhost/prosup'
+    var origin = 'https://prosup-backend.000webhostapp.com'
     var api = origin + '/api/ones?s=' + which
     const [document, setDocument] = useState([]);
     useEffect(()=>{
-        fetch(api) //https://prosup-backend.000webhostapp.com
+        fetch(api)
         .then(response => response.json())
         .then(data => {
             setDocument(data)
