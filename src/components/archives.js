@@ -18,7 +18,10 @@ function Archives() {
   var origin = 'https://prosup-backend.000webhostapp.com'
   var api = origin + '/api/gets?s=' + search
   if(search !== ''){
-    isSearch = <div> Showing search result '{search}' </div>
+    isSearch = <div> Showing {recents.length} search result '{search}' </div>
+    /* if ( == 0){
+      isSearch = <div> Showing search result '{search}' </div>
+    } */
   }
 
   useEffect(()=>{
