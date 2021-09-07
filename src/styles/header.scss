@@ -1,47 +1,30 @@
 @import 'colors';
-
+img {
+        height:47px;
+    }
 .App-Header {
-    height: 80px;
+    padding-right: 5vw !important;
+    padding-left: 5vw !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    font-family: 'Comfortaa';
 
-    .Container{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding-left: 5vw !important;
-        padding-right: 5vw !important;
-
-        img {
-            height:47px;
-        }
+    .nav-link{
+        font-size: medium;
+        color: $primary-dark !important;
+        background-color: white;
     }
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 720px) {
-
-    .App-Header {
-        height: 60px;
-
-        .Container{
-            img {
-                height:37px
-            }
-        }
+    img {
+        height:37px
     }
 }
 
 //Tab smaller sizes
 @media screen and (max-width: 540px) {
-
-    .App-Header {
-        height: 50px;
-        
-        .Container{
-            img {
-                height:27px
-            }
-        }
-    }
 }

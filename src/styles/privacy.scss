@@ -1,0 +1,29 @@
+@import 'colors';
+
+.App-Privacy {
+    align-items: center;
+    background-color: white;
+    color: $secondary-dark;
+
+    .Container{
+        display: flex;
+        height: inherit;
+        text-align: start;
+        flex-direction: column;
+        padding: 5vw !important;
+        text-align: justify;
+
+        p, ul, li{
+            font-size: large;
+        }
+    }
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+}
