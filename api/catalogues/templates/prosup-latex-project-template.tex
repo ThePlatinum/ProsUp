@@ -1,0 +1,159 @@
+\documentclass[12pt]{report}
+
+\usepackage[margin=0.8in, a4paper]{geometry}
+\usepackage{natbib}
+\usepackage{titling}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{mfirstuc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{sectsty}
+	\chapterfont{\centering }
+	
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\listfigurename}{List of Figures}
+\renewcommand{\listtablename}{List of Tables}
+
+%Copy all below to the dots into a new file and save as newcommands.tex
+
+%Your Name
+\newcommand{\me}{ProsUp, Latex Template}
+%Matric Number
+\newcommand{\memat}{PROSUP/YEAR/NUMBER}
+
+\newcommand{\sgap}{\\ \vspace{6mm}}
+\newcommand{\gap}{\\ \vspace{15mm}}
+
+%Project Topic
+\newcommand{\topic}{This Template is free for all users of ProsUp}
+
+%.........................................
+
+\usepackage[compact]{titlesec}
+\titlespacing*{\section}{0pt}{*0}{*0}
+
+\doublespacing
+
+\begin{document} \Large 
+	\begin{titlepage}
+		\begin{center}
+			\textbf{\topic}
+			\gap
+			BY
+			\gap
+			\textbf{ \me }
+			\\
+			\textbf{ \memat }
+			\gap
+			A PROJECT SUBMITTED TO
+			\gap
+			THE DEPARTMENT OF WHATEVER  THE DEPARTMENT IS.
+			\\
+			IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE AWARD OF BACHELOR OF TECHNOLOGY (B.TECH.) IN ...
+		\end{center}
+		\vfill
+		\hfill \textbf{SEPTEMBER, 2021}
+	\end{titlepage}
+
+	\pagenumbering{roman}
+	\normalsize
+	\chapter*{Certification} 
+	\addcontentsline{toc}{chapter}{Certification}
+	I certify that this project work titled \topic\ was carried out by \me\ with the matriculation number \memat, in the Department of...
+	\\
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{ccc}
+			\begin{tabular}[c]{c}
+				\\. . . . . . . . . . . . . . . . . . . . . . . . . .
+				\\Dr A B C..
+				\\ \textbf{Supervisor}\\\\\\\\
+			\end{tabular}                   &  & 
+			\begin{tabular}[c]{c}\\. . . . . . . . . . . . . . . . . . . . . . . . .  .\\Date\\\\\\\\\\
+			\end{tabular}  \\
+			\begin{tabular}[c]{c}. . . . . . . . . . . . . . . . . . . . . . . . . .\\\textbf{External Supervisor}\\\\\\\\
+			\end{tabular}                             &  & 
+			\begin{tabular}[c]{c}. . . . . . . . . . . . . . . . . . . . . . .  . . .\\Date\\\\\\\\
+			\end{tabular}
+		\end{tabular}
+	\end{table}
+
+	\chapter*{Dedication}
+	\addcontentsline{toc}{chapter}{Dedication}
+	\begin{center}
+		I dedicate this work to God, the Almighty.
+	\end{center}
+	
+	\chapter*{Acknowledgment}
+	\addcontentsline{toc}{chapter}{Acknowledgment}
+	
+	
+	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
+	
+	In this work, I did a lot... lo
+	
+	\tableofcontents
+	\addcontentsline{toc}{chapter}{Table of Contents}
+	
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of Figures}
+	
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of Tables}
+	
+	\chapter{INTRODUCTION}
+	\pagenumbering{arabic}
+	The arabic style of numberibg begigns from the introduction page.
+	
+	\section{METHODS OF SOLUTION}
+	Lots of Story, and inculde a graphic here
+	\\
+	\begin{figure}[H]
+		\centering
+		%put name of graphic file
+		\includegraphics{} 
+		\caption{The Caption}
+		\label{solutions}
+	\end{figure}
+	
+	\chapter{LITERATURE REVIEW}
+	You can include tables too and have them neat.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{cccl}
+			\hline
+			x   & Exact Solution & DTM Solution & Error \\ \hline
+			0.0 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.1 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.2 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.3 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.4 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.5 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.6 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.7 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.8 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			0.9 & 0.00000000 & 0.00000000 & 0.00000000 \\
+			1.0 & 0.00000000 & 0.00000000 & 0.00000000 \\ \hline
+		\end{tabular}
+		\caption{Tables can have captions too}
+	\end{table}
+
+	\chapter{SUMMARY AND CONCLUSION}
+	\section{SUMMARY}
+	In this work, somethig cool was done ... Smiles
+	
+	\section{CONCLUSION}
+	Well, I think you all should use ProsUp
+	
+	\addcontentsline{toc}{chapter}{}
+	%Put the name of file containing the references here... You can learn to make refrences at ProsUp
+	\bibliographystyle{apalike}
+	\bibliography{bibliography}
+
+	\chapter*{APPENDIX}
+	\addcontentsline{toc}{chapter}{Appendix}
+	Appendix can include any other miscellanous detail to your work
+
+\end{document}
