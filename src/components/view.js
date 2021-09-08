@@ -31,8 +31,13 @@ function View() {
                         < ContributeBtn styleClass='contribute'/>
                     </div>
 
-                    <div className='cont'>
+                    <div className='adsBanner'>
+                    <iframe src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
                     </div>
+                    <div className='adsBanner'>
+                    <iframe src="//a.exdynsrv.com/iframe.php?idzone=4418374&size=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                    </div>
+                    
                 </div>
                 <div className='file col-md-7'> <embed src={`${origin}/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
             </div>

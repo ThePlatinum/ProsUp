@@ -172,8 +172,11 @@ function Submit() {
                     </FormGroup>
                 </div>
                 <span class='errSpan'>{fillAll}</span>
+
+                <div className='col'>
                 <Label> {' '} </Label>
                 <Button className='sendBtn' id='submitBtn' type='submit' disabled={disabled} onClick={sendSubmission} > Submit </Button>
+                </div>
 
                 <Modal isOpen={modalOpen} backdrop={false} toggle={toggleModal}>
                     <ModalHeader>Loading</ModalHeader>

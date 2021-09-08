@@ -19,6 +19,10 @@
             .cont{
                 padding-top: 5vw;
             }
+
+            .adsBanner{
+                padding-top: 3vw;
+            }
         }
         .file {
             height: 1100px;
@@ -35,6 +39,10 @@
         }
         h5{
             font-size: medium;
+        }
+        .adsBanner{
+            padding-top: 3vw;
+            display: none;
         }
     }
 }
