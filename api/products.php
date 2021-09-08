@@ -2,8 +2,8 @@
     require_once __DIR__."/cores/config.php";
     $search = $_GET['sProduct'];
     
-    $query = 'SELECT * FROM projects WHERE Tags LIKE \'%'. $search .'%\' ORDER BY RAND() ';
-    $projects = array();
+    $query = 'SELECT * FROM products WHERE productName LIKE \'%'. $search .'%\' ';
+    $product = array();
 
     try {
         $res = $db->prepare($query);
@@ -25,7 +25,7 @@
             'Image'         => $row['image'],
             'Preview'       => $row['previewFile'],
             'Template'      => $row['template'],
-              	 
+            'Payment'       => $row['paymentLink']
         );
     }
     
