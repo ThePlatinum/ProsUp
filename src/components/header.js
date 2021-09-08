@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import {
-  Collapse, Container, DropdownItem,
-  DropdownMenu, DropdownToggle,
+  Collapse, Container, /* DropdownItem,
+  DropdownMenu, DropdownToggle, */
   Nav, Navbar, NavbarBrand,
-  NavbarToggler, NavItem, NavLink, UncontrolledDropdown
+  NavbarToggler, NavItem, NavLink, /* UncontrolledDropdown */
 } from 'reactstrap';
 import brand from '../resources/prosup_theme.svg';
 import '../styles/header.scss';
@@ -21,7 +21,7 @@ function Header() {
             
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar style={{width:'100%', justifyContent:'right'}}>
-            <Nav className="ml-auto" style={{justifyContent:'space-around'}}>
+            <Nav className="ml-auto" style={{justifyContent:'space-between'}}>
                 <NavItem>
                     <NavLink href="/">
                       Home
@@ -32,9 +32,14 @@ function Header() {
                     Submission
                     </NavLink>
                 </NavItem>
-                <UncontrolledDropdown nav inNavbar>
+                <NavItem>
+                    <NavLink href="/catalogues">
+                    Catalogue
+                    </NavLink>
+                </NavItem>
+                {/* <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret >
-                    Our Services
+                    Products / Services
                   </DropdownToggle>
                   <DropdownMenu right style={{borderRadius:'0px'}}>
                       <DropdownItem>
@@ -48,7 +53,7 @@ function Header() {
                           </NavLink>
                       </DropdownItem>
                   </DropdownMenu>
-                </UncontrolledDropdown>
+                </UncontrolledDropdown> */}
                 <NavItem>
                   <ContributeBtn styleClass='contribute'/>
                 </NavItem>

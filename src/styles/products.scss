@@ -1,0 +1,57 @@
+@import 'colors';
+
+.App-Products {
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    padding-bottom: 5vw !important;
+    text-align: left;
+    font-family: 'Comfortaa';
+    line-height: 21px;
+    color: $secondary-dark;
+
+    .cTitle{
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+        font-size: x-large;
+    }
+
+    .prod{
+        padding: 1vw;
+
+        .cImg{
+            min-height: calc(21*10px);
+        }
+
+        .cHead{
+            min-height: 36px;
+        }
+
+        .pill{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .cText{
+            min-height: calc(21*4px);
+            font-size: small;
+        }
+
+        .btns{
+            margin-top: 1vh;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            padding: 0px !important;
+        }
+    }
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 720px) {
+
+}
+
+//Tab smaller sizes
+@media screen and (max-width: 540px) {
+
+}
