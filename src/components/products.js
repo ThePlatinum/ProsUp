@@ -6,8 +6,8 @@ import msword from '../resources/word.jpeg'
 import excel from '../resources/excel.png'
 
 function Products() {
-  const origin = 'http://localhost/prosup'
-  //var origin = 'https://prosup-backend.000webhostapp.com'
+  //const origin = 'http://localhost/prosup'
+  var origin = 'https://prosup-backend.000webhostapp.com'
   const api = origin + '/api/products?sProduct='
 
   const cost = (p)=>{
@@ -89,7 +89,7 @@ function Products() {
   return (
     <div className='App-Products'>
       <div className='cTitle'>Courses</div>
-      <div className='row'>
+      <div className='row' id='courses'>
       {courses.map((item, i) => {
           return (
             <div className='prod col-sm-6 col-md-4 col-lg-3' key={i}>
@@ -140,8 +140,8 @@ function Products() {
 
       <Modal isOpen={modalOpen} backdrop={false} toggle={()=>toggleModal('','')}>
         <ModalHeader>{modalProduct}</ModalHeader>
-        <ModalBody>
-            <iframe title='Buy Template' width='100%' src={imodalPayment}></iframe>
+        <ModalBody style={{minHeight:'70vh'}}>
+            <iframe title='Buy Template' height='100%' width='100%' src={imodalPayment}></iframe>
         </ModalBody>
         <ModalFooter>
           <Button color='outline' onClick={()=>toggleModal('','')}>Cancel</Button>

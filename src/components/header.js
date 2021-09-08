@@ -15,7 +15,7 @@ function Header() {
   return (
     <Container className='App-Header'>
         <Navbar color="white" light expand="lg" sticky="top" > 
-          <NavbarBrand>
+          <NavbarBrand href='/'>
             <img src={brand} alt="ProsUp"/>
           </NavbarBrand>
             
