@@ -79,7 +79,7 @@ const ControlPanel = (props) => {
 
       </div>
 
-      <div className="col-md-4 d-flex justify-content-around align-items-baseline">
+      <div className="col-md-4 pt-3 p-md-0 d-flex justify-content-around align-items-baseline">
         <i
           className={`fas fa-search-minus mx-3 ${zoomOutClass}`}
           onClick={zoomOut}
