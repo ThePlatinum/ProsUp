@@ -30,8 +30,8 @@
             }
         }
         .file {
-            padding: 2vh;
             margin: 0px !important;
+            overflow: auto;
         }
     }
 }
@@ -44,6 +44,10 @@
         }
         h5{
             font-size: medium;
+        }
+
+        .adsBanner, .webBanner{
+            display: none;
         }
     }
 }

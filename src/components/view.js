@@ -9,6 +9,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 /* import PDFViewer from 'pdf-viewer-reactjs' */
 function View() {
+    let hei = window.screen.availHeight;
+    let dScreen = (hei/100).toFixed();
+    let initScale = dScreen/10 ;
+
     let { which } = useParams();
     //var origin = 'http://localhost/prosup'
     var origin = 'https://prosup-backend.000webhostapp.com'
@@ -22,7 +26,7 @@ function View() {
         });
     },[api]);
 
-    const [scale, setScale] = useState(1.0);
+    const [scale, setScale] = useState(initScale);
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
     const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +40,8 @@ function View() {
         <div className="App-Viewer">
             <div className='Container row'>
                 <div className='name col-md-4'>
-                    <h4>{document.title}</h4>
+                    <h5>{document.title}</h5>
+                    <br/> 
                     <h5>{document.author}</h5>
 
                     <div className='cont'>
@@ -47,14 +52,14 @@ function View() {
                     </div>
 
                     <div className='adsBanner'>
-                    <iframe title='ads1' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
+                        <iframe title='ads1' className='webBanner' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
                     </div>
                 </div>
                 <div className='file col-md-7'>
                     <Loader isLoading={isLoading} />
                     <section
                         id="pdf-section"
-                        className="d-flex flex-column align-items-center w-100"
+                        className="d-flex flex-column align-items-center"
                     >
                         <ControlPanel
                         scale={scale}

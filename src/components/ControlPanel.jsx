@@ -1,5 +1,4 @@
 import React from 'react';
-import PDFPrinter from './PDFPrinter';
 
 const ControlPanel = (props) => {
   const { file, pageNumber, numPages, setPageNumber, scale, setScale } = props;
@@ -86,14 +85,11 @@ const ControlPanel = (props) => {
           onClick={zoomIn}
         />
       </div>
-      <div className="mx-3">
+      {/* <div className="mx-3">
         <a href="/assets/docs/file-sample.pdf" download={true} title="download">
           <i className="fas fa-file-download clickable" />
         </a>
-      </div>
-      <div className="mx-3">
-        <PDFPrinter file={file} />
-      </div>
+      </div>*/}
     </div>
   );
 };
