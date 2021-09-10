@@ -4,6 +4,7 @@ import '../styles/products.scss';
 import latex from '../resources/latex.png'
 import msword from '../resources/word.jpeg'
 import excel from '../resources/excel.png'
+import { Banner, Placeholder } from 'exoclick-react';
 
 function Products() {
   //const origin = 'http://localhost/prosup'
@@ -114,6 +115,9 @@ function Products() {
               )
           })}
       </div>
+      <Placeholder className='mobile' width="728" height="255">
+        <Banner className='center' zoneId="4420636" />
+      </Placeholder>
       <div className='cTitle' id='templates'>Document Templates</div>
       <div className="row">
         {products.map((item, i) => {

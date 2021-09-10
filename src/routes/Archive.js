@@ -5,7 +5,7 @@ import Archives from '../components/archives';
 
 function Archive() {
   return (
-    <div className="App">
+    <div>
       <Banner />
       <Archives />
       <Services />

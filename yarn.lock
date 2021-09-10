@@ -5405,6 +5405,13 @@
   "resolved" "https://registry.npmjs.org/exit/-/exit-0.1.2.tgz"
   "version" "0.1.2"
 
+"exoclick-react@^1.0.3":
+  "integrity" "sha512-Nj5FWkFYHQdpf8dyV0GlWv7Ta39S/qLtsKZTGi8blIy0r+MGxMeQrg53DVwxyNwm8hmSlD6fHFY3Fp9vOQC/Ig=="
+  "resolved" "https://registry.npmjs.org/exoclick-react/-/exoclick-react-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "expand-brackets@^2.1.4":
   "integrity" "sha1-t3c14xXOMPa27/D4OwQVGiJEliI="
   "resolved" "https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz"

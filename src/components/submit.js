@@ -191,6 +191,12 @@ function Submit() {
                 <iframe title='Upload' name='error' hidden height='0px'>
                 </iframe>
         </div>
+      <StickyBanner
+        zoneId="4420476"
+        horizontalPosition="left"
+        verticalPosition="bottom"
+        format="728x90"
+      />
     </div>
   );
 }

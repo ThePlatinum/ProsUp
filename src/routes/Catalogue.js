@@ -4,7 +4,7 @@ import Submission from '../components/submission';
 
 function Catalogue() {
   return (
-    <div className="App">
+    <div>
     <div className='top'>
       ProsUp Products and Services
     </div>

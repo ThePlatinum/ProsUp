@@ -4,7 +4,7 @@ import View from '../components/view';
 
 function Viewing() {
   return (
-    <div className="App">
+    <div>
       <View />
       <Services />
     </div>

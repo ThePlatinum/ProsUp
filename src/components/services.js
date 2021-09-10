@@ -18,7 +18,8 @@ function Services() {
             <div className='white'>
                 <img src={freeTemplate} alt='Free Template'/> <br />
                 <strong>Free</strong> 'Latex' Undergraduate Project Template <br/> <br/>
-                <a className='actv' href='/prosup-latex-project-template.tex' download><Button className='downloadBtn'> Get Now</Button></a>
+                <a className='actv Sys' href='/prosup-latex-project-template.tex' download><Button className='downloadBtn'> Get Now</Button></a>
+                <a className='actv mobv' href='https://prosup-backend.000webhostapp.com/api/catalogues/templates/prosup-latex-project-template.tex' download><Button className='downloadBtn'> Get Now</Button></a>
             </div>
          </div>
        </div>

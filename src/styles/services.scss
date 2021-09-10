@@ -46,6 +46,10 @@
             cursor: default;
            }
 
+        .mobv{
+            display: none;
+        }
+
         .white{
             background-color: white;
             color: $primary-dark;
@@ -72,6 +76,13 @@
     
             .ems{
                 font-size: x-large;
+            }
+
+            .mobv{
+                display:inline;
+            }
+            .Sys{
+                display: none;
             }
         }
     }

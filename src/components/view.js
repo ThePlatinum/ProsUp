@@ -34,10 +34,6 @@ function View() {
                     <div className='adsBanner'>
                     <iframe title='ads1' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
                     </div>
-                    <div className='adsBannerMobile'>
-                    <iframe title='mobile' src="//a.exdynsrv.com/iframe.php?idzone=4420424&size=300x100" width="300" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-                    </div>
-                    
                 </div>
                 <div className='file col-md-7'> <embed src={`${origin}/${document.file}`} title='Viewer' height='100%' width='100%'></embed> </div>
             </div>
