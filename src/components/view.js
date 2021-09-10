@@ -9,9 +9,17 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 /* import PDFViewer from 'pdf-viewer-reactjs' */
 function View() {
-    let hei = window.screen.availHeight;
-    let dScreen = (hei/100).toFixed();
-    let initScale = dScreen/10 ;
+
+    let width = window.screen.availWidth;
+    let height = window.screen.availHeight;
+    let dScreen = 100;
+    if (width <= 500){
+        dScreen = (width/100).toFixed();
+    }
+    else{
+        dScreen = (height/100).toFixed();
+    }
+    let initScale = (dScreen/10) + 0.2 ;
 
     let { which } = useParams();
     //var origin = 'http://localhost/prosup'
@@ -55,27 +63,29 @@ function View() {
                         <iframe title='ads1' className='webBanner' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
                     </div>
                 </div>
-                <div className='file col-md-7'>
-                    <Loader isLoading={isLoading} />
-                    <section
-                        id="pdf-section"
-                        className="d-flex flex-column align-items-center"
-                    >
+                <div className='col-md-8'>
                         <ControlPanel
-                        scale={scale}
-                        setScale={setScale}
-                        numPages={numPages}
-                        pageNumber={pageNumber}
-                        setPageNumber={setPageNumber}
-                        //file={`${origin}/${document.file}`}
-                        />
-                        <Document
-                        file={`${origin}/${document.file}`}
-                        onLoadSuccess={onDocumentLoadSuccess}
+                            scale={scale}
+                            setScale={setScale}
+                            numPages={numPages}
+                            pageNumber={pageNumber}
+                            setPageNumber={setPageNumber}
+                            //file={`${origin}/${document.file}`}
+                            />
+                    <div className='file'>
+                        <Loader isLoading={isLoading} />
+                        <section
+                            id="pdf-section"
+                            className="d-flex flex-column align-items-center"
                         >
-                        <Page pageNumber={pageNumber} scale={scale} />
-                        </Document>
-                    </section>
+                            <Document
+                            file={`${origin}/${document.file}`}
+                            onLoadSuccess={onDocumentLoadSuccess}
+                            >
+                            <Page pageNumber={pageNumber} scale={scale} />
+                            </Document>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>

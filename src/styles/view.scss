@@ -3,6 +3,8 @@
 .App-Viewer {
     background-color: #E0E0E0;
     padding: 0px !important;
+    padding-top: 0.5vw !important;
+    padding-right: 0.5vw !important;
     margin: 0px !important;
 
     .Container{
@@ -13,6 +15,7 @@
         .name {
             font-family: 'Comfortaa';
             padding: 5vw;
+            padding-top: 4.5vw;
             text-align: left;
             margin: 0px !important;
 
@@ -29,10 +32,10 @@
                 justify-content: center;
             }
         }
-        .file {
-            margin: 0px !important;
-            overflow: auto;
-        }
+            .file {
+                margin: 0px !important;
+                overflow:scroll;
+            }
     }
 }
 

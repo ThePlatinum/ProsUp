@@ -42,8 +42,9 @@ const ControlPanel = (props) => {
   };
 
   return (
-    <div className="control-panel m-3 p-3 d-flex align-items-baseline justify-content-between">
-      <div className="d-flex justify-content-between align-items-baseline">
+    <div className="control-panel p-2 d-flex align-items-baseline justify-content-between row w-100">
+      <div className="col-md-8 d-flex justify-content-between align-items-baseline">
+        
         <i
           className={`fas fa-fast-backward mx-3 ${firstPageClass}`}
           onClick={goToFirstPage}
@@ -52,19 +53,21 @@ const ControlPanel = (props) => {
           className={`fas fa-backward mx-3 ${firstPageClass}`}
           onClick={goToPreviousPage}
         />
-        <span>
-          Page{' '}
+
+        <span className={`col-md-4`} >
           <input
             name="pageNumber"
             type="number"
             min={1}
             max={numPages || 1}
-            className="p-0 pl-1 mx-2"
+            className="p-0 pl-1 mx-3"
+            style={{maxWidth:'50px'}}
             value={pageNumber}
             onChange={onPageChange}
-          />{' '}
-          of {numPages}
+          />
+          / {numPages}
         </span>
+
         <i
           className={`fas fa-forward mx-3 ${lastPageClass}`}
           onClick={goToNextPage}
@@ -73,8 +76,10 @@ const ControlPanel = (props) => {
           className={`fas fa-fast-forward mx-3 ${lastPageClass}`}
           onClick={goToLastPage}
         />
+
       </div>
-      <div className="d-flex justify-content-between align-items-baseline">
+
+      <div className="col-md-4 d-flex justify-content-around align-items-baseline">
         <i
           className={`fas fa-search-minus mx-3 ${zoomOutClass}`}
           onClick={zoomOut}

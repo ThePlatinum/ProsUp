@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import {
-  Collapse, Container, /* DropdownItem,
-  DropdownMenu, DropdownToggle, */
+  Collapse, Container,
   Nav, Navbar, NavbarBrand,
-  NavbarToggler, NavItem, NavLink, /* UncontrolledDropdown */
+  NavbarToggler, NavItem, NavLink
 } from 'reactstrap';
 import brand from '../resources/prosup_theme.svg';
 import '../styles/header.scss';
