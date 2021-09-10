@@ -7,7 +7,7 @@ function Archives() {
 
   const [recents, setRecents] = useState([]);
   const [page, setPage] = useState(1)
-  const [perPage] = useState(10) //setperPage
+  const [perPage] = useState(15) //setperPage
   var totalPages = ''
   var paginateNums = []
   var isSearch = ''
