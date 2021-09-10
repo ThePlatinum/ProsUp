@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ControlPanel = (props) => {
-  const { file, pageNumber, numPages, setPageNumber, scale, setScale } = props;
+  const { pageNumber, numPages, setPageNumber, scale, setScale } = props;
 
   const isFirstPage = pageNumber === 1;
   const isLastPage = pageNumber === numPages;
@@ -89,7 +89,10 @@ const ControlPanel = (props) => {
         <a href="/assets/docs/file-sample.pdf" download={true} title="download">
           <i className="fas fa-file-download clickable" />
         </a>
-      </div>*/}
+      </div>
+      <div className="mx-3">
+        <PDFPrinter file={file} />
+      </div> */}
     </div>
   );
 };

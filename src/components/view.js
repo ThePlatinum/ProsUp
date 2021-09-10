@@ -67,7 +67,7 @@ function View() {
                         numPages={numPages}
                         pageNumber={pageNumber}
                         setPageNumber={setPageNumber}
-                        file={`${origin}/${document.file}`}
+                        //file={`${origin}/${document.file}`}
                         />
                         <Document
                         file={`${origin}/${document.file}`}
