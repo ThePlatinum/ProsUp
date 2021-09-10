@@ -22,10 +22,15 @@
 
             .adsBanner{
                 padding-top: 3vw;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
             }
         }
         .file {
-            height: 1100px;
+            padding: 2vh;
             margin: 0px !important;
         }
     }

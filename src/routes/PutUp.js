@@ -4,7 +4,7 @@ import Submit from '../components/submit';
 
 function PutUp() {
   return (
-    <div>
+    <div id='ss'>
       <div className='top'>
           Put Projects Up &nbsp; &gt; &nbsp; ProsUp
       </div>

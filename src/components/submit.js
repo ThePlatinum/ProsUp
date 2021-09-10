@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, Form, FormGroup, Input, Label, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import '../styles/submit.scss';
 import emailjs from 'emailjs-com'
+import { StickyBanner } from 'exoclick-react';
 
 function Submit() {
 
@@ -84,7 +85,7 @@ function Submit() {
   const [noteError, setnoteError] = useState('')
 
   return (
-    <div className="App-Submit row">
+    <div className="App-Submit row" >
         <div className='note col-md-5'>
             <div className='hP'>
                 You got cool Projects you'd like to put up for the world to see, and it makes use glad. <br/>
