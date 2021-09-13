@@ -114,6 +114,11 @@ function Products() {
             </div>
               )
           })}
+          
+          <div className='prod col-sm-6 col-md-4 col-lg-3' >
+            <script async="async" data-cfasync="false" src="//pl16597025.effectivecpmgate.com/cd6c42521e90f23c546a70ecd58fe426/invoke.js"></script>
+            <div id="container-cd6c42521e90f23c546a70ecd58fe426"></div>
+          </div>
       </div>
 
       <div className='adWeb' >
