@@ -8,7 +8,7 @@ export default function Terms(){
           <div className='Container'>
 
             <span>
-            Last updated September 11, 2021
+            <p>Last updated September 11, 2021</p>
             </span>
 
             {/* Thank you for choosing to be part of our community at <bdt class="question">Platinum Innovations</bdt><strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>").
@@ -24,7 +24,36 @@ export default function Terms(){
             
             The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights ou have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately
              */}
+
+            <p>
+              These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity <strong>(“you”)</strong> and Platinum Innovations <strong>("Company," “we," “us," or “our”)</strong>, 
+              concerning your access to and use of the prosup.xyz website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the <strong>“Site”</strong>). 
+              {/* We are registered in Nigeria and have our registered office at FUTA South, Akure, Ondo 340.  */}
+              You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.
+            </p>
             
+            <p>
+            <strong>
+              IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+            </strong>
+            </p>
+
+            <p>
+              Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use from time to time. We will alert you about any changes by updating the “Last updated” date of these Terms of Use, and you waive any right to receive specific notice of each such change. 
+              Please ensure that you check the applicable Terms every time you use our Site so that you understand which Terms apply.
+              You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.
+            </p>
+
+            <h4>USER REPRESENTATIONS</h4>
+
+            <p>
+              <div className='textLi'>1. you have the legal capacity and you agree to comply with these Terms of Use; </div>
+              <div className='textLi'>2. you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Site;  </div>
+              <div className='textLi'>3. you will not access the Site through automated or non-human means, whether through a bot, script, or otherwise;  </div>
+              <div className='textLi'>4. you will not use the Site for any illegal or unauthorized purpose; and  </div>
+              <div className='textLi'>5. your use of the Site will not violate any applicable law or regulation.  </div>
+            </p>
+
             <p>As a user of this Site, you agree not to:</p>
             <div className='textLi'>1. Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us. </div>
             <div className='textLi'>2. Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords. </div>
@@ -38,7 +67,7 @@ export default function Terms(){
             <div className='textLi'>10. Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools. </div>
             <div className='textLi'>11. Delete the copyright or other proprietary rights notice from any Content. </div>
             <div className='textLi'>12. Attempt to impersonate another user or person or use the username of another user. </div>
-            <div className='textLi'>13. Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”). </div>
+            <div className='textLi'>13. Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats <strong>(“gifs”)</strong>, 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or <strong>“pcms”</strong>). </div>
             <div className='textLi'>14. Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site. </div>
             <div className='textLi'>15. Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you. </div>
             <div className='textLi'>16. Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site. </div>
