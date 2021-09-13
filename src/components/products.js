@@ -43,7 +43,7 @@ function Products() {
       "Description": "Not just to type, but, to have look rightly, perfect, and compelling to read.. using Microsoft Office Word",
       "Available": "Upcoming",
       "Price": "3000",
-      "Image": excel,
+      "Image": msword,
       "Preview": "previews/prosup-latex-project-template.pdf",
       "Duration": "5 Days",
       "Payment": "https://paystack.com/buy/ms-word-master-class-aqqhto"
@@ -53,7 +53,7 @@ function Products() {
       "Description": "Learn to analyze, visualize and manipulate data and make meaning of results",
       "Available": "Upcoming",
       "Price": "4000",
-      "Image": msword,
+      "Image": excel,
       "Preview": "previews/prosup-latex-project-template.pdf",
       "Duration": "15 Days",
       "Payment": "https://paystack.com/buy/ms-excel-master-class-ksskvr"
