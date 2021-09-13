@@ -115,9 +115,18 @@ function Products() {
               )
           })}
       </div>
-      <Placeholder className='mobile' width="728" height="255">
-        <Banner className='center' zoneId="4420636" />
-      </Placeholder>
+
+      <div className='adWeb' >
+        <Placeholder width="728" height="90">
+          <Banner className='center' zoneId="4423198" />
+        </Placeholder>
+      </div>
+      <div className='adMobile' >
+        <Placeholder className='adMobile' width="300" height="100">
+          <Banner className='center' zoneId="4423200" />
+        </Placeholder>
+      </div>
+
       <div className='cTitle' id='templates'>Document Templates</div>
       <div className="row">
         {products.map((item, i) => {

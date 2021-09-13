@@ -9,6 +9,7 @@ import Viewing from './routes/Viewing';
 import PutUp from './routes/PutUp';
 import Privacy from './routes/privacy';
 import Catalogue from './routes/Catalogue';
+import Terms from './routes/terms';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
             <Route path='/archive' exact component={ Archive }/>
             <Route path='/view-doc/:which' exact component={ Viewing }/>
             <Route path='/putprosup' exact component={ PutUp }/>
-            <Route path='/prosup-privacypolicies' exact component={ Privacy }/>
             <Route path='/catalogues' exact component={ Catalogue }/>
+            <Route path='/prosup-privacypolicies' exact component={ Privacy }/>
+            <Route path='/prosup-termsofservice' exact component={ Terms }/>
           </Switch>
         </BrowserRouter>
       <Footer />

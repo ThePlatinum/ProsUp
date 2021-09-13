@@ -59,8 +59,12 @@ function View() {
                         < ContributeBtn styleClass='contribute'/>
                     </div>
 
-                    <div className='adsBanner'>
-                        <iframe title='ads1' className='webBanner' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
+                    <div className='adWeb'>
+                        <iframe title='ads1' src="//a.exdynsrv.com/iframe.php?idzone=4418364&size=300x250" width="300" height="250" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
+                    </div>
+
+                    <div className='adMobile'>
+                        <iframe title='ads2' src="//a.exdynsrv.com/iframe.php?idzone=4420424&size=300x250" width="300" height="100" scrolling="no" marginWidth="0" marginHeight="0" frameBorder="0"></iframe>
                     </div>
                 </div>
                 <div className='col-md-8'>

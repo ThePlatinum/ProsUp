@@ -1,3 +1,4 @@
+import { StickyBanner } from 'exoclick-react';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Button } from 'reactstrap';
@@ -75,6 +76,15 @@ function Archives() {
           <Button onClick={()=>{if (page !== totalPages) {setPage(page+1) }}} color=''> &gt; </Button>
         </div>
       </div>
+      <script type="application/javascript" src="https://syndication.exdynsrv.com/splash.php?idzone=4423196&capping=0"></script>
+
+      <StickyBanner
+        zoneId="4423204"
+        horizontalPosition="left"
+        verticalPosition="bottom"
+        format="728x90"
+      /> 
+      
     </div>
   );
 }
