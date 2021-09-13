@@ -3,95 +3,52 @@ export default function Terms(){
     return(
         <div className="App-Privacy">
           <div className='top'>
-            ProsUp Privacy Policy
+            ProsUp Terms of Service
           </div>
           <div className='Container'>
-            <p>At ProsUp, accessible from prosup.xyz, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ProsUp and how we use it.</p>
 
-            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+            <span>
+            Last updated September 11, 2021
+            </span>
 
-            <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ProsUp. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+            {/* Thank you for choosing to be part of our community at <bdt class="question">Platinum Innovations</bdt><strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>").
+            We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy 
+            notice or our practices with regard to your personal information, please contact us at <bdt class="question">platinumemirate@gmail.com</bdt>.
+            
+            This privacy notice describes how we might use your information if you:
+            Visit our website at <a href="https://prosup.xyz/" data-custom-class="link">https://prosup.xyz</a>
+            Engage with us in other related ways ― including any sales, marketing, or events
+            In this privacy notice, if we refer to:"
+            <strong>Website</strong>," we are referring to any website of ours that references or links to this policy
+            and other related services, including any sales, marketing, or events
+            
+            The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights ou have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately
+             */}
+            
+            <p>As a user of this Site, you agree not to:</p>
+            <div className='textLi'>1. Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us. </div>
+            <div className='textLi'>2. Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords. </div>
+            <div className='textLi'>3. Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein. </div>
+            <div className='textLi'>4. Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site. </div>
+            <div className='textLi'>5. Use any information obtained from the Site in order to harass, abuse, or harm another person. </div>
+            <div className='textLi'>6. Make improper use of our support services or submit false reports of abuse or misconduct. </div>
+            <div className='textLi'>7. Use the Site in a manner inconsistent with any applicable laws or regulations. </div>
+            <div className='textLi'>8. Engage in unauthorized framing of or linking to the Site. </div>
+            <div className='textLi'>9. Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site. </div>
+            <div className='textLi'>10. Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools. </div>
+            <div className='textLi'>11. Delete the copyright or other proprietary rights notice from any Content. </div>
+            <div className='textLi'>12. Attempt to impersonate another user or person or use the username of another user. </div>
+            <div className='textLi'>13. Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”). </div>
+            <div className='textLi'>14. Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site. </div>
+            <div className='textLi'>15. Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you. </div>
+            <div className='textLi'>16. Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site. </div>
+            <div className='textLi'>17. Copy or adapt the Site’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code. </div>
+            <div className='textLi'>18. Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site. </div>
+            <div className='textLi'>19. Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software. </div>
+            <div className='textLi'>20. Use a buying agent or purchasing agent to make purchases on the Site. </div>
+            <div className='textLi'>21. Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses. </div>
+            <div className='textLi'>22. Use the Site as part of any effort to compete with us or otherwise use the Site and/or the Content for any revenue-generating endeavor or commercial enterprise. </div>
 
-            <h2>Consent</h2>
-
-            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
-
-            <h2>Information we collect</h2>
-
-            <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
-            <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
-            <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
-
-            <h2>How we use your information</h2>
-
-            <p>We use the information we collect in various ways, including to:</p>
-
-            <ul>
-            <li>Provide, operate, and maintain our website</li>
-            <li>Improve, personalize, and expand our website</li>
-            <li>Understand and analyze how you use our website</li>
-            <li>Develop new products, services, features, and functionality</li>
-            <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
-            <li>Send you emails</li>
-            <li>Find and prevent fraud</li>
-            </ul>
-
-            <h2>Log Files</h2>
-
-            <p>ProsUp follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
-
-
-
-            <h2>Our Advertising Partners</h2>
-
-            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.</p>
-
-            <ul>
-                <li>
-                    <p>Google</p>
-                    <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
-                </li>
-            </ul>
-
-            <h2>Advertising Partners Privacy Policies</h2>
-
-            <p>You may consult this list to find the Privacy Policy for each of the advertising partners of ProsUp.</p>
-
-            <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on ProsUp, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-
-            <p>Note that ProsUp has no access to or control over these cookies that are used by third-party advertisers.</p>
-
-            <h2>Third Party Privacy Policies</h2>
-
-            <p>ProsUp's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
-
-            <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
-
-            <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
-
-            <p>Under the CCPA, among other rights, California consumers have the right to:</p>
-            <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
-            <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
-            <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
-            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
-
-            <h2>GDPR Data Protection Rights</h2>
-
-            <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
-            <p>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</p>
-            <p>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</p>
-            <p>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</p>
-            <p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p>
-            <p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p>
-            <p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
-            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
-
-            <h2>Children's Information</h2>
-
-            <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-
-            <p>ProsUp does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-            <p>Regards to <a href="https://www.termsfeed.com/privacy-policy-generator/">TermsFeed Privacy Policy Generator</a> for helping with this document.</p>
           </div>
         </div>
     )

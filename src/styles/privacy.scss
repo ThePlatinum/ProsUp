@@ -12,12 +12,19 @@
         flex-direction: column;
         padding: 5vw !important;
         text-align: justify;
-
+        
         p, ul, li{
-            font-size: large;
+            font-size: normal;
+            font-weight: 300;
         }
-    }
 
+        .textLi{
+            padding-left: 5vh;
+            font-weight: 300;
+            font-size: small;
+        }
+
+    }
 }
 
 //Tab smaller sizes

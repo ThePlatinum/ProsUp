@@ -169,7 +169,7 @@ function Submit() {
                 </FormGroup>
                 <div className='card grp' >
                     <FormGroup check>
-                        <Label check><input type='checkbox' onChange={(e)=>{ setDisabled(!e.target.checked) }} /> &nbsp; Accept Privacy Policy </Label>
+                        <Label check><input type='checkbox' onChange={(e)=>{ setDisabled(!e.target.checked) }} /> &nbsp; Accept Privacy Policy and Terms of Service </Label>
                     </FormGroup>
                 </div>
                 <span class='errSpan'>{fillAll}</span>
