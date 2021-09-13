@@ -114,19 +114,27 @@ function Products() {
             </div>
               )
           })}
-          
-          <div className='prod col-sm-6 col-md-4 col-lg-3' >
-            <script async="async" data-cfasync="false" src="//pl16597025.effectivecpmgate.com/cd6c42521e90f23c546a70ecd58fe426/invoke.js"></script>
-            <div id="container-cd6c42521e90f23c546a70ecd58fe426"></div>
-          </div>
       </div>
 
       <div className='adWeb' >
-        <Placeholder width="728" height="90">
+        <script async="async" data-cfasync="false" src="//periljuicywary.com/cd6c42521e90f23c546a70ecd58fe426/invoke.js"></script>
+        <div id="container-cd6c42521e90f23c546a70ecd58fe426"></div>
+        {/* <Placeholder width="728" height="90">
           <Banner className='center' zoneId="4423198" />
-        </Placeholder>
+        </Placeholder> */}
       </div>
+
       <div className='adMobile' >
+      {/* <script type="text/javascript">
+        atOptions = {
+          'key' : '3c83ba4bf58f6354cd2cf1b495ee8f85',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://periljuicywary.com/3c83ba4bf58f6354cd2cf1b495ee8f85/invoke.js"></scr' + 'ipt>');
+      </script> */}
         <Placeholder className='adMobile' width="300" height="100">
           <Banner className='center' zoneId="4423200" />
         </Placeholder>
