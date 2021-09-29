@@ -47,7 +47,7 @@ function Submit() {
             .then(result => {
                 let status = result.status;
                 if (status === 200){
-                    setLoading('Your Submission has been successfull, \n We will contact you soon');
+                    setLoading('Your Submission has been successfull, \n You should get a mail from us, PLEASE CHECK YOUR SPAM and add us to your mailing list. \n We will contact you soon');
                     window.location.reload(false);
                 }
                 else{
