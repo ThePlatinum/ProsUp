@@ -3,7 +3,7 @@
     /* database constant details */
     $db_user     = 'root';
     $db_password = '';
-    $db_name     = 'prosup';
+    $db_name     = 'draftmgn';
 
     /* PDO database connection */
     try

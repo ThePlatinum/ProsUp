@@ -1,33 +1,31 @@
 <?php
-    require_once __DIR__."/cores/config.php";
-        
-    function all($db) {
-        $query = 'SELECT * FROM projects ORDER BY RAND()';
-        $projects = array();
+require_once __DIR__ . "/cores/config.php";
+$table = $_GET['tbl'];
 
-        try {
-            $res = $db->prepare($query);
-            $res->execute();
-        } catch (PDOException $e) {
-            /* If there is an error an exception is thrown */
-            echo 'Query error: ' . $e->getMessage();
-            die();
-        }
+$query = 'SELECT * FROM ' . $table ;
+$lists = array();
 
-        /* Iterate through the result rows */
-        while ($row = $res->fetch(PDO::FETCH_ASSOC))
-        {
-            $projects[] = array(
-                'author' => $row['Authors'],
-                'title'  => $row['Title'],
-                'excerpt'=> $row['Excerpt'],
-                'year'   => $row['Year']
-            );
-        }
-        header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: http://localhost:3000');
-        return json_encode($projects);
-    }
-    
-    echo all($db);
-?>
+try {
+    $res = $db->prepare($query);
+    $res->execute();
+} catch (PDOException $e) {
+    /* If there is an error an exception is thrown */
+    echo 'Query error: ' . $e->getMessage();
+    die();
+}
+
+/* Iterate through the result rows */
+while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+    $lists[] = array(
+        'caseId' => $row['caseId'],
+        'firstName' => $row['firstName'],
+        'lastName'  => $row['lastName'],
+        'amount' => $row['amount'],
+        'date' => $row['date'],
+        'status'   => $row['status']
+    );
+}
+
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+echo json_encode($lists);
